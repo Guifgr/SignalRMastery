@@ -37,13 +37,15 @@ namespace RealtimeToDo.Web.Services
             Lists.Add(new ToDoList()
             {
                 Id = 1,
-                Name = "Bar"
+                Name = "Bar",
+                Items = new List<ToDoItem>()
             });
 
             Lists.Add(new ToDoList()
             {
                 Id = 2,
-                Name = "Test"
+                Name = "Test",
+                Items = new List<ToDoItem>()
             });
         }
 
