@@ -99,6 +99,15 @@ export default class ToDoService {
             setTimeout(() => this.toggleToDoItem(listId, itemId), 500);
         }
     }
+
+    deleteToDoItem(listId: number, itemId: number) {
+        if (this.connection.state === HubConnectionState.Connected) {
+            this.connection.send("DeleteToDoItem", listId, itemId);
+        }
+        else {
+            setTimeout(() => this.deleteToDoItem(listId, itemId), 500);
+        }
+    }
 }
 
 export const ConnectionServices: PluginObject<any> = {

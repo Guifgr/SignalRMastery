@@ -9,8 +9,8 @@ namespace RealtimeTodo.Web.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public List<ToDoItem> Items { get; set; }
-        public int Pending => Items.Count(p => !p.IsCompleted);
-        public int Completed => Items.Count(p => p.IsCompleted);
+        public int Pending => Items?.Count(p => !p.IsCompleted) ?? 0;
+        public int Completed => Items?.Count(p => p.IsCompleted) ?? 0;
 
         public ToDoListMinimal GetMinimal()
         {

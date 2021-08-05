@@ -19,6 +19,9 @@
             />
           </td>
           <td>{{ i.text }}</td>
+          <td>
+            <button @click="deleteItem(i.id)">x</button>
+          </td>
         </tr>
         <tr>
           <td>&nbsp;</td>
@@ -49,6 +52,10 @@ export default class List extends Vue {
 
     Vue.$connectionService.addToDoItem(this.listId, this.newItemText);
     this.newItemText = "";
+  }
+
+  deleteItem(itemId: number) {
+    Vue.$connectionService.deleteToDoItem(this.listId, itemId);
   }
 
   toggleToDoItem(itemId: number) {

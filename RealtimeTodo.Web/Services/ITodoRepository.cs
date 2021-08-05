@@ -12,19 +12,26 @@ namespace RealtimeToDo.Web.Services
         Task<ToDoList> GetList(int id);
         Task AddToDoItem(int listId, string text);
         Task ToggleToDoItem(int listId, int itemId);
-        
+        Task DeleteToDoItem(int listId, int itemId);
+
     }
 
     public class InMemoryToDoRepository : IToDoRepository
     {
         private static List<ToDoList> Lists { get; set; } = new List<ToDoList>();
-
         static InMemoryToDoRepository()
         {
+            var item = new ToDoItem()
+            {
+                Id = 0,
+                Text = "Abalo"
+            };
+            var itemList = new List<ToDoItem> { item };
             Lists.Add(new ToDoList()
             {
                 Id = 0,
-                Name = "Foo"
+                Name = "Foo",
+                Items = itemList
             });
 
             Lists.Add(new ToDoList()
@@ -62,6 +69,13 @@ namespace RealtimeToDo.Web.Services
         {
             var itemList = await GetList(listId);
             itemList.Toggle(itemId);
+        }
+        public async Task DeleteToDoItem(int listId, int itemId)
+        {
+            var itemList = await GetList(listId);
+            var item = itemList.Items.FirstOrDefault(i => i.Id == itemId);
+            if (item == null) throw new NullReferenceException();
+            itemList.Items.Remove(item);
         }
     }
 }
