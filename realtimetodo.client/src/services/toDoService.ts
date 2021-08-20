@@ -15,7 +15,7 @@ export default class ToDoService {
         this.connection = new HubConnectionBuilder()
             .configureLogging(LogLevel.Trace)
             .withAutomaticReconnect()
-            .withUrl("/hubs/todo")
+            .withUrl("https://localhost:5001/hubs/todo")
             .build();
 
         this.connection.on("UpdatedToDoList", (values: any[]) =>

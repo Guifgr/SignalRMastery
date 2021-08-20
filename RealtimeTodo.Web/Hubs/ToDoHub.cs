@@ -13,6 +13,21 @@ namespace RealtimeTodo.Web.Hubs
             _toDoRepository = toDoRepository;
         }
 
+        private async Task NotificationAdd(string message)
+        {
+            await Clients.All.SendAsync("NotificationAdd", message);
+        }
+
+        private async Task NotificationDelete(string message)
+        {
+            await Clients.All.SendAsync("NotificationDelete", message);
+        }
+        
+        private async Task NotificationUpdate(string message)
+        {
+            await Clients.All.SendAsync("NotificationUpdate", message);
+        }
+        
         public async Task GetLists()
         {
             var results = await _toDoRepository.GetLists();
@@ -51,6 +66,7 @@ namespace RealtimeTodo.Web.Hubs
 
         public async Task AddToDoItem(int listId, string text)
         {
+            await NotificationAdd("Nova task " + text);
             await _toDoRepository.AddToDoItem(listId, text);
 
             var allLists = await _toDoRepository.GetLists();
@@ -63,6 +79,7 @@ namespace RealtimeTodo.Web.Hubs
 
         public async Task ToggleToDoItem(int listId, int itemId)
         {
+            await NotificationAdd("Mudou status da task " + itemId);
             await _toDoRepository.ToggleToDoItem(listId, itemId);
 
             var allLists = await _toDoRepository.GetLists();
@@ -76,6 +93,7 @@ namespace RealtimeTodo.Web.Hubs
         
         public async Task DeleteToDoItem(int listId, int itemId)
         {
+            await NotificationDelete("Deletou a task " + itemId);
             await _toDoRepository.DeleteToDoItem(listId, itemId);
 
             var allLists = await _toDoRepository.GetLists();

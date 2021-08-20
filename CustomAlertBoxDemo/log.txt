@@ -1,0 +1,167 @@
+2021-08-20 11:11:53.380 -03:00 [INF] Loaded 5 extensions
+2021-08-20 11:11:56.632 -03:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.302\
+2021-08-20 11:11:57.570 -03:00 [INF] Found Visual Studio v17.0.31606.5 [C:\Program Files\Microsoft Visual Studio\2022\Preview]
+2021-08-20 11:11:57.575 -03:00 [INF] Found Visual Studio v15.9.28307.1585 [C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools]
+2021-08-20 11:11:59.047 -03:00 [INF] Initializing upgrade step Select an entrypoint
+2021-08-20 11:11:59.051 -03:00 [INF] Setting entrypoint to only project in solution: C:\Users\guifg\Documents\GitHub\SignalRMastery\CustomAlertBoxDemo\CustomAlertBoxDemo.csproj
+2021-08-20 11:11:59.061 -03:00 [INF] Initializing upgrade step Select project to upgrade
+2021-08-20 11:11:59.167 -03:00 [INF] Initializing upgrade step Back up project
+2021-08-20 11:12:09.853 -03:00 [INF] Applying upgrade step Back up project
+2021-08-20 11:12:13.043 -03:00 [INF] Backing up C:\Users\guifg\Documents\GitHub\SignalRMastery\CustomAlertBoxDemo to C:\Users\guifg\Documents\GitHub\SignalRMastery\CustomAlertBoxDemo.backup
+2021-08-20 11:12:13.059 -03:00 [WRN] Could not copy file C:\Users\guifg\Documents\GitHub\SignalRMastery\CustomAlertBoxDemo\log.txt due to 'The process cannot access the file 'C:\Users\guifg\Documents\GitHub\SignalRMastery\CustomAlertBoxDemo\log.txt' because it is being used by another process.'
+2021-08-20 11:12:13.129 -03:00 [INF] Project backed up to C:\Users\guifg\Documents\GitHub\SignalRMastery\CustomAlertBoxDemo.backup
+2021-08-20 11:12:13.130 -03:00 [INF] Upgrade step Back up project applied successfully
+2021-08-20 11:12:14.878 -03:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-08-20 11:12:19.143 -03:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-08-20 11:12:19.146 -03:00 [INF] Converting project file format with try-convert, version 0.9.232202
+2021-08-20 11:12:19.767 -03:00 [INF] [dotnet] C:\Users\guifg\Documents\GitHub\SignalRMastery\CustomAlertBoxDemo\CustomAlertBoxDemo.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
+2021-08-20 11:12:22.292 -03:00 [INF] [dotnet] Conversion complete!
+2021-08-20 11:12:22.977 -03:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-08-20 11:12:26.562 -03:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-08-20 11:12:28.036 -03:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-08-20 11:12:29.003 -03:00 [INF] Marking package Microsoft.AspNetCore.Connections.Abstractions for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.008 -03:00 [INF] Marking package Microsoft.AspNetCore.Http.Connections.Client for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.010 -03:00 [INF] Marking package Microsoft.AspNetCore.Http.Connections.Common for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.012 -03:00 [INF] Marking package Microsoft.AspNetCore.Http.Features for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.019 -03:00 [INF] Marking package Microsoft.AspNetCore.SignalR.Client.Core for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.022 -03:00 [INF] Marking package Microsoft.AspNetCore.SignalR.Common for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.024 -03:00 [INF] Marking package Microsoft.AspNetCore.SignalR.Protocols.Json for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.026 -03:00 [INF] Marking package Microsoft.Bcl.AsyncInterfaces for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.048 -03:00 [INF] Marking package Microsoft.Extensions.DependencyInjection for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.051 -03:00 [INF] Marking package Microsoft.Extensions.DependencyInjection.Abstractions for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.053 -03:00 [INF] Marking package Microsoft.Extensions.Logging for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.055 -03:00 [INF] Marking package Microsoft.Extensions.Logging.Abstractions for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.059 -03:00 [INF] Marking package Microsoft.Extensions.Options for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.062 -03:00 [INF] Marking package Microsoft.Extensions.Primitives for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.066 -03:00 [INF] Marking package System.Buffers for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.074 -03:00 [INF] Marking package System.Diagnostics.DiagnosticSource for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.076 -03:00 [INF] Marking package System.IO for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.079 -03:00 [INF] Marking package System.IO.Pipelines for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.081 -03:00 [INF] Marking package System.Memory for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.085 -03:00 [INF] Marking package System.Net.Sockets for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.088 -03:00 [INF] Marking package System.Numerics.Vectors for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.090 -03:00 [INF] Marking package System.Runtime for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.092 -03:00 [INF] Marking package System.Runtime.CompilerServices.Unsafe for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.095 -03:00 [INF] Marking package System.Runtime.InteropServices.RuntimeInformation for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.098 -03:00 [INF] Marking package System.Security.Cryptography.Algorithms for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.101 -03:00 [INF] Marking package System.Security.Cryptography.Encoding for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.103 -03:00 [INF] Marking package System.Security.Cryptography.Primitives for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.105 -03:00 [INF] Marking package System.Security.Cryptography.X509Certificates for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.108 -03:00 [INF] Marking package System.Text.Encodings.Web for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.112 -03:00 [INF] Marking package System.Text.Json for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.115 -03:00 [INF] Marking package System.Threading.Channels for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.117 -03:00 [INF] Marking package System.Threading.Tasks.Extensions for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.119 -03:00 [INF] Marking package System.ValueTuple for removal because it appears to be a transitive dependency
+2021-08-20 11:12:29.124 -03:00 [INF] Marking assembly reference System.Net.Http.WebRequest for removal based on package mapping configuration HTTP packages
+2021-08-20 11:12:29.127 -03:00 [INF] Adding package System.Net.Http based on package mapping configuration HTTP packages
+2021-08-20 11:12:30.452 -03:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.241603) needs added
+2021-08-20 11:12:30.461 -03:00 [INF] References to be removed: Operation { Item = System.Net.Http.WebRequest, OperationDetails = OperationDetails { Risk = Medium, Details = System.Collections.Generic.List`1[System.String] } }
+2021-08-20 11:12:30.462 -03:00 [INF] Packages to be removed: Operation { Item = Microsoft.AspNetCore.Connections.Abstractions, Version=5.0.9, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.AspNetCore.Http.Connections.Client, Version=5.0.9, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.AspNetCore.Http.Connections.Common, Version=5.0.9, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.AspNetCore.Http.Features, Version=5.0.9, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.AspNetCore.SignalR.Client.Core, Version=5.0.9, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.AspNetCore.SignalR.Common, Version=5.0.9, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.AspNetCore.SignalR.Protocols.Json, Version=5.0.9, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.Bcl.AsyncInterfaces, Version=5.0.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.Extensions.DependencyInjection, Version=5.0.2, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.Extensions.Logging, Version=5.0.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.Extensions.Logging.Abstractions, Version=5.0.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.Extensions.Options, Version=5.0.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.Extensions.Primitives, Version=5.0.1, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Buffers, Version=4.5.1, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Diagnostics.DiagnosticSource, Version=5.0.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.IO, Version=4.3.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.IO.Pipelines, Version=5.0.1, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Memory, Version=4.5.4, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Net.Sockets, Version=4.3.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Numerics.Vectors, Version=4.5.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Runtime, Version=4.3.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Runtime.CompilerServices.Unsafe, Version=5.0.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Runtime.InteropServices.RuntimeInformation, Version=4.3.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Security.Cryptography.Algorithms, Version=4.3.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Security.Cryptography.Encoding, Version=4.3.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Security.Cryptography.Primitives, Version=4.3.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Security.Cryptography.X509Certificates, Version=4.3.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Text.Encodings.Web, Version=5.0.1, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Text.Json, Version=5.0.2, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Threading.Channels, Version=5.0.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.Threading.Tasks.Extensions, Version=4.5.4, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.ValueTuple, Version=4.5.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-20 11:12:30.477 -03:00 [INF] Packages to be added: Operation { Item = System.Net.Http, Version=4.3.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.241603, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-20 11:12:34.409 -03:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-08-20 11:12:34.412 -03:00 [INF] Removing outdated assembly reference: System.Net.Http.WebRequest
+2021-08-20 11:12:34.414 -03:00 [INF] Removing outdated package reference: Microsoft.AspNetCore.Connections.Abstractions, Version=5.0.9
+2021-08-20 11:12:34.414 -03:00 [INF] Removing outdated package reference: Microsoft.AspNetCore.Http.Connections.Client, Version=5.0.9
+2021-08-20 11:12:34.415 -03:00 [INF] Removing outdated package reference: Microsoft.AspNetCore.Http.Connections.Common, Version=5.0.9
+2021-08-20 11:12:34.416 -03:00 [INF] Removing outdated package reference: Microsoft.AspNetCore.Http.Features, Version=5.0.9
+2021-08-20 11:12:34.416 -03:00 [INF] Removing outdated package reference: Microsoft.AspNetCore.SignalR.Client.Core, Version=5.0.9
+2021-08-20 11:12:34.417 -03:00 [INF] Removing outdated package reference: Microsoft.AspNetCore.SignalR.Common, Version=5.0.9
+2021-08-20 11:12:34.417 -03:00 [INF] Removing outdated package reference: Microsoft.AspNetCore.SignalR.Protocols.Json, Version=5.0.9
+2021-08-20 11:12:34.418 -03:00 [INF] Removing outdated package reference: Microsoft.Bcl.AsyncInterfaces, Version=5.0.0
+2021-08-20 11:12:34.419 -03:00 [INF] Removing outdated package reference: Microsoft.Extensions.DependencyInjection, Version=5.0.2
+2021-08-20 11:12:34.419 -03:00 [INF] Removing outdated package reference: Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0
+2021-08-20 11:12:34.420 -03:00 [INF] Removing outdated package reference: Microsoft.Extensions.Logging, Version=5.0.0
+2021-08-20 11:12:34.420 -03:00 [INF] Removing outdated package reference: Microsoft.Extensions.Logging.Abstractions, Version=5.0.0
+2021-08-20 11:12:34.421 -03:00 [INF] Removing outdated package reference: Microsoft.Extensions.Options, Version=5.0.0
+2021-08-20 11:12:34.422 -03:00 [INF] Removing outdated package reference: Microsoft.Extensions.Primitives, Version=5.0.1
+2021-08-20 11:12:34.422 -03:00 [INF] Removing outdated package reference: System.Buffers, Version=4.5.1
+2021-08-20 11:12:34.423 -03:00 [INF] Removing outdated package reference: System.Diagnostics.DiagnosticSource, Version=5.0.0
+2021-08-20 11:12:34.424 -03:00 [INF] Removing outdated package reference: System.IO, Version=4.3.0
+2021-08-20 11:12:34.424 -03:00 [INF] Removing outdated package reference: System.IO.Pipelines, Version=5.0.1
+2021-08-20 11:12:34.425 -03:00 [INF] Removing outdated package reference: System.Memory, Version=4.5.4
+2021-08-20 11:12:34.425 -03:00 [INF] Removing outdated package reference: System.Net.Sockets, Version=4.3.0
+2021-08-20 11:12:34.426 -03:00 [INF] Removing outdated package reference: System.Numerics.Vectors, Version=4.5.0
+2021-08-20 11:12:34.426 -03:00 [INF] Removing outdated package reference: System.Runtime, Version=4.3.0
+2021-08-20 11:12:34.427 -03:00 [INF] Removing outdated package reference: System.Runtime.CompilerServices.Unsafe, Version=5.0.0
+2021-08-20 11:12:34.427 -03:00 [INF] Removing outdated package reference: System.Runtime.InteropServices.RuntimeInformation, Version=4.3.0
+2021-08-20 11:12:34.428 -03:00 [INF] Removing outdated package reference: System.Security.Cryptography.Algorithms, Version=4.3.0
+2021-08-20 11:12:34.428 -03:00 [INF] Removing outdated package reference: System.Security.Cryptography.Encoding, Version=4.3.0
+2021-08-20 11:12:34.429 -03:00 [INF] Removing outdated package reference: System.Security.Cryptography.Primitives, Version=4.3.0
+2021-08-20 11:12:34.429 -03:00 [INF] Removing outdated package reference: System.Security.Cryptography.X509Certificates, Version=4.3.0
+2021-08-20 11:12:34.430 -03:00 [INF] Removing outdated package reference: System.Text.Encodings.Web, Version=5.0.1
+2021-08-20 11:12:34.432 -03:00 [INF] Removing outdated package reference: System.Text.Json, Version=5.0.2
+2021-08-20 11:12:34.433 -03:00 [INF] Removing outdated package reference: System.Threading.Channels, Version=5.0.0
+2021-08-20 11:12:34.434 -03:00 [INF] Removing outdated package reference: System.Threading.Tasks.Extensions, Version=4.5.4
+2021-08-20 11:12:34.434 -03:00 [INF] Removing outdated package reference: System.ValueTuple, Version=4.5.0
+2021-08-20 11:12:34.436 -03:00 [INF] Adding package reference: System.Net.Http, Version=4.3.0
+2021-08-20 11:12:34.437 -03:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.241603
+2021-08-20 11:12:37.219 -03:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-08-20 11:12:38.336 -03:00 [INF] Initializing upgrade step Update TFM
+2021-08-20 11:12:38.346 -03:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-20 11:12:38.348 -03:00 [INF] TFM needs updated to net5.0-windows
+2021-08-20 11:12:40.531 -03:00 [INF] Applying upgrade step Update TFM
+2021-08-20 11:12:40.536 -03:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-20 11:12:42.739 -03:00 [INF] Updated TFM to net5.0-windows
+2021-08-20 11:12:42.740 -03:00 [INF] Upgrade step Update TFM applied successfully
+2021-08-20 11:12:43.846 -03:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-08-20 11:12:45.778 -03:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-08-20 11:12:45.782 -03:00 [INF] Packages to be added: Operation { Item = Microsoft.Windows.Compatibility, Version=5.0.2, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-20 11:12:47.935 -03:00 [INF] Applying upgrade step Update NuGet Packages
+2021-08-20 11:12:47.936 -03:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-08-20 11:12:54.201 -03:00 [INF] Marking package System.ComponentModel.Composition for removal because it appears to be a transitive dependency
+2021-08-20 11:12:54.205 -03:00 [INF] Marking package System.Data.DataSetExtensions for removal because it appears to be a transitive dependency
+2021-08-20 11:12:54.244 -03:00 [INF] Removing outdated package reference: System.ComponentModel.Composition, Version=5.0.0
+2021-08-20 11:12:54.245 -03:00 [INF] Removing outdated package reference: System.Data.DataSetExtensions, Version=4.5.0
+2021-08-20 11:12:56.102 -03:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-08-20 11:12:58.122 -03:00 [INF] Initializing upgrade step Add template files
+2021-08-20 11:12:58.128 -03:00 [INF] 0 expected template items needed
+2021-08-20 11:12:58.129 -03:00 [INF] Initializing upgrade step Upgrade app config files
+2021-08-20 11:12:58.185 -03:00 [INF] Found 0 app settings for upgrade: 
+2021-08-20 11:12:58.188 -03:00 [INF] Found 0 connection strings for upgrade: 
+2021-08-20 11:12:58.195 -03:00 [INF] Initializing upgrade step Update source code
+2021-08-20 11:12:58.199 -03:00 [INF] Running analyzers on CustomAlertBoxDemo
+2021-08-20 11:12:59.602 -03:00 [INF] Identified 0 diagnostics in project CustomAlertBoxDemo
+2021-08-20 11:12:59.632 -03:00 [INF] Initializing upgrade step Move to next project
+2021-08-20 11:13:01.115 -03:00 [INF] Applying upgrade step Move to next project
+2021-08-20 11:13:01.116 -03:00 [INF] Upgrade step Move to next project applied successfully
+2021-08-20 11:13:05.762 -03:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-20 11:13:05.767 -03:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-20 11:13:05.773 -03:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-20 11:13:05.775 -03:00 [INF] Initializing upgrade step Finalize upgrade
+2021-08-20 11:13:05.781 -03:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-20 11:13:07.933 -03:00 [INF] Applying upgrade step Finalize upgrade
+2021-08-20 11:13:07.934 -03:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-08-20 11:13:08.768 -03:00 [INF] Upgrade has completed. Please review any changes.

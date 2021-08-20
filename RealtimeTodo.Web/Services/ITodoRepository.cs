@@ -65,6 +65,9 @@ namespace RealtimeToDo.Web.Services
         {
             var list = await GetList(listId);
             list.AddItem(text);
+            foreach (var lista in from lista in Lists from n in lista.Items select lista)
+            {
+            }
         }
 
         public async Task ToggleToDoItem(int listId, int itemId)
